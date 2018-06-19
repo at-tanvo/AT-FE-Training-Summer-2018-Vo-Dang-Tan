@@ -1,0 +1,108 @@
+body {background-color: aqua;
+}
+div.A {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  background-position: top left;  
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+div.B {
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 2px solid;
+  border-color: red;
+  background-color: yellow;
+  position: absolute;
+  top: 0px;
+  left: 48%;
+  text-align: right;
+  font-size: 50px;
+}
+div.C {
+  width: 60px;
+  height: 60px;
+  background-color: #3700ff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: left;
+  font-size: 50px;   
+}
+div.D {
+  width: 60px;
+  height: 60px;
+  background-color: #008700;
+  border-right: 5px solid blue;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  text-align: right;
+  font-size: 50px;
+}
+div.E {
+  width: 60px;
+  height: 60px;
+  background: orange;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px; 
+}
+div.F {
+  width: 60px;
+  height: 60px;
+  background-color: purple;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  text-align: left;
+  font-size: 50px;
+}
+div.G {
+  width: 55px;
+  height: 60px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: right;
+  font-size: 50px;
+  color: #008731;
+}
+div.H {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  position: absolute;
+  left: 48%;
+  bottom: 0px;
+  margin-bottom: 30px;
+  text-align: left;
+  color: white;
+  font-size: 50px;
+}
+div.I {
+  width: 60px;
+  height: 60px;
+  background-color: #7b7b7b;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: red;
+  font-size: 50px;
+}
+span.I{
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
