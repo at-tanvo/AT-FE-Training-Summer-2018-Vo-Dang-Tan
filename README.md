@@ -1,4 +1,4 @@
 # AT-FE-Training-Summer-2018-Vo-Dang-Tan
-- Name  : Võ Đăng Tân
-- Age   : 24
-- Team	: Ruby
+- Name  : Võ Đăng Tân.
+- Age   : 24.
+- Team	: Ruby .
