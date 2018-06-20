@@ -1,6 +1,6 @@
 body {background-color: aqua;
 }
-div.A {
+div.a {
   width: 60px;
   height: 60px;
   background-color: red;
@@ -13,7 +13,7 @@ div.A {
   top: 0px;
   left: 0px;
 }
-div.B {
+div.b {
   width: 60px;
   height: 60px;
   -moz-border-radius: 10px;
@@ -27,7 +27,7 @@ div.B {
   text-align: right;
   font-size: 50px;
 }
-div.C {
+div.c {
   width: 60px;
   height: 60px;
   background-color: #3700ff;
@@ -37,7 +37,7 @@ div.C {
   text-align: left;
   font-size: 50px;   
 }
-div.D {
+div.d {
   width: 60px;
   height: 60px;
   background-color: #008700;
@@ -48,7 +48,7 @@ div.D {
   text-align: right;
   font-size: 50px;
 }
-div.E {
+div.e {
   width: 60px;
   height: 60px;
   background: orange;
@@ -59,7 +59,7 @@ div.E {
   text-align: center;
   font-size: 50px; 
 }
-div.F {
+div.f {
   width: 60px;
   height: 60px;
   background-color: purple;
@@ -69,7 +69,7 @@ div.F {
   text-align: left;
   font-size: 50px;
 }
-div.G {
+div.g {
   width: 55px;
   height: 60px;
   position: absolute;
@@ -79,7 +79,7 @@ div.G {
   font-size: 50px;
   color: #008731;
 }
-div.H {
+div.h {
   width: 60px;
   height: 60px;
   background-color: black;
@@ -91,7 +91,7 @@ div.H {
   color: white;
   font-size: 50px;
 }
-div.I {
+div.i {
   width: 60px;
   height: 60px;
   background-color: #7b7b7b;
@@ -101,8 +101,11 @@ div.I {
   color: red;
   font-size: 50px;
 }
-span.I{
+span.i{
   position: absolute;
   bottom: 30px;
   right: 20px;
+}
+.a-b-c , .d-e-f , .g-h-i {
+  text-transform: uppercase;
 }
