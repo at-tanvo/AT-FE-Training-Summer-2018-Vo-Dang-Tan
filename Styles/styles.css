@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block; 
+}
+.page-header {
+  text-transform: uppercase;
+}
+.div-header {
+  float: left;
+  width: 100%;
+  border-bottom: #bbb 2px solid;   
+}
+.logo-img {
+  float: left;
+}
+.logo-img img {
+  margin-top: 25px;
+}
+.logo-content {
+  float: right;
+}
+.logo-content a {
+  text-decoration: none;
+}
+.p-page-header {
+  float: right;
+  line-height: 80px;
+}
+.p-page-header span {
+  color: blue;
+  font-weight: bold;
+}
+.menu-list {
+  display: inline-block;
+}
+.menu-item {
+  font-size: 15px;
+  border-right: 2px solid #bbb;
+  line-height: 20px;
+  padding: 10px;
+  float: left;
+  list-style: none;
+} 
+.social {
+  float: right;
+  display: inline-block;
+}
+.social-item {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+.sidebar-left {
+  float: left;
+  width: 250px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+}
+.adults h3 {
+  text-transform: uppercase;
+  background-color: #d9e4e9;
+  padding: 10px;
+  margin: 0;
+}
+.adults-list {
+  line-height: 30px;
+}
+.children h3 {
+  text-transform: uppercase;
+  background-color: #d9e4e9;
+  padding: 10px;
+  margin: 0;
+}
+.book-schedule h2 {
+  margin-top: 4 0px;
+  text-transform: uppercase;
+}
+.book-schedule {
+  background-color: #d9e4e9;
+}
+.book-schedule input {
+  margin: 5px 20px;
+  padding: 5px 50px 5px 0;
+}
+.book-schedule button {
+  padding: 10px 30px;
+  margin: 5px 30% 15px;
+  background-color: green;
+  color: white;
+}
+.content {
+  float: right ;
+  width: calc(100% - 250px);
+}
+.content h3 {
+  text-transform: uppercase;
+}
+.services-list {
+  float: left;
+  width: calc(100% / 3);
+  list-style: none;
+}
+.services-list img {
+  width: 90%;
+  height: 150px;
+}
+.page-footer {
+  background-color: #62c6f8;
+}
+.footer-content {
+  color: white;
+}
+.footer-content li a {
+  color: white;
+}
+.footer-info {
+  float: left;
+  width: calc(100% / 3);
+}
+.footer-info h3 {
+  text-transform: uppercase;
+}
+.information {
+  padding-left  : 25px;
+}
+.social-footer-item img {
+  vertical-align: middle;
+  margin: 5px;
+}
+.social-footer-item {
+  list-style: none;
+}
+.copy-right {
+  text-transform: uppercase;
+}
+.designby {
+  float: right;
+}
+.designby a {
+  color: #7ff4cb;
+}
