@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 10px;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block; 
+}
+.page-header {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}  
+.div-header {
+  border-bottom: 2px solid #bbb;
+  width: 100%;
+  padding: 10px 0 16px;
+  margin: 0 0 10px;
+}
+.logo-img {
+  float: left;
+}
+.logo-img img {
+  margin-top: 25px;
+}
+.logo-content {
+  float: right;
+  margin-top: 40px;
+  line-height: 20px;
+}
+.p-page-header {
+  float: right;
+  line-height: 80px;
+}
+.p-page-header span {
+  color: blue;
+  font-weight: bold;
+}
+.img-phone {
+  vertical-align: middle;
+}
+.menu-list {
+  display: inline-block;
+}
+.menu-item {
+  font-size: 15px;
+  border-right: 2px solid #bbb;
+  line-height: 20px;
+  padding: 10px;
+  float: left;
+} 
+.social {
+  float: right;
+}
+.social-item {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 50px;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+  list-style: none;
+  padding: 60px 0;
+  text-transform: uppercase;
+}
+.breadcrumb li+li ::before {
+  content: '/\00a0' ;
+}
+.sidebar-left {
+  float: left;
+  width: 25%;
+  border: 1px solid #bbb;
+}
+.adults h3 {
+  text-transform: uppercase;
+  background-color: #d9e4e9;
+  padding: 10px;
+  margin: 0;
+}
+.adults-span {
+  float: right;
+}
+.adults-list {
+  line-height: 30px;
+}
+.adults-item {
+  list-style: disc;
+  list-style-position: inside;
+  padding: 0 15px;
+}
+.children h3 {
+  text-transform: uppercase;
+  background-color: #d9e4e9;
+  padding: 10px;
+  margin: 0;
+}
+.book-schedule h2 {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.book-schedule {
+  background-color: #d9e4e9;
+  margin-top: 20px;
+}
+.form {
+  padding: 10px 10px;
+}
+.book-schedule input {
+  width: 100%;
+  margin: 5px 0;
+}
+.book-schedule button {
+  padding: 10px 30px;
+  margin: 5px 30% 15px;
+  background-color: green;
+  color: white;
+}
+.content {
+  float: right;
+  width: 75%;
+ 
+}
+.content h3 {
+  text-transform: uppercase;
+}
+.services-item {
+  float: left;
+  width: calc(100% / 3);
+  padding:0 0 22px 22px;
+}
+.services-item img {
+  width: 100%;
+}
+.services-item-a {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+}
+.services-item-border {
+  position: relative;
+  border: 1px solid gray;
+}
+.services-item h3 {
+  padding: 10px 0 0 10px;
+}
+.services-item p {
+  padding: 10px 10px 20px;
+}
+.page-footer {
+  background-color: #62c6f8;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.footer-content {
+  color: white;
+}
+.footer-content li a {
+  color: white;
+}
+.footer-info {
+  float: left;
+  width: calc(100% / 3);
+}
+/* .footer-info h3 {
+  text-transform: uppercase;
+} */
+.about-item {
+  margin: 10px 0;
+  list-style: disc;
+}
+.support-item {
+  margin: 10px 0;
+  list-style: disc;
+}
+.social-footer-item img {
+  vertical-align: middle;
+  margin: 0px 10px;
+}
+.social-footer-item {
+  list-style: none;
+  margin: 5px;
+  /* text-transform: uppercase; */
+}
+.footer-top {
+  border-bottom: 2px solid #bbb;
+}
+.designby {
+  float: right;
+}
+.copy-right {
+  margin: 20px 0; 
+}
+.designby a {
+  color: #7ff4cb;
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1023px){
+  
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 767px){
+  .sidebar-left {
+    width: 40%;
+  }
+  .content {
+    width: 60%;
+  }
+  .services-item {
+    width: calc(100% / 2);
+  }      
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 479px){
+  .menu-item {
+    float: none;
+    width: 100%;
+    }
+  .contact {
+    display: none;
+  }  
+  .sidebar-left {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    float: none;
+  }
+  .services-item {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 30px 0;
+  }
+  .sidebar-left {
+    margin-bottom: 30px;
+  }
+  
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 319px){
+  .logo-content {
+    display: none;
+  }  
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}
