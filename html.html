@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML + Javascript Exercise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+  <div>
+    <h1>HTML + Javascript Exercise</h1>
+    <h3>Knowledge round-up</h3>
+    <b>Javascript</b>
+    <h4> 1. What are the differences between a variable that is: `null`, `undefined`?</h4>
+    <p>Undefined có nghĩa là không xác định. Trong javascript, khi bạn khai báo một biến nhưng chưa gán giá trị cho nó, giá trị của biến đó sẽ là undefined.</p>
+    <p>Null có nghĩa là giá trị rỗng hoặc giá trị không tồn tại, nó có thể được sử dụng để gán cho một biến như là một đại diện không có giá trị.</p>
+    <p>Có thể thấy undefind có kiểu giá trị là undefined nhưng null lại là 1 object (bạn có thể coi đó là một lỗi nhỏ trong JavaScript khi để kiểu của null là đối tượng, đáng ra kiểu của nó nên là null).</p>
+    <h4>2.What is `use strict`? what are the advantages and disadvantages to using it?</h4>
+    <p>Use strict là từ khóa khai báo sử dụng chế độ Strict Mode, nghĩa là nếu bạn muốn sử dụng chế độ Strict Mode ở đâu thì chỉ việc đặt từ khóa "use strict" ở đó. Chế độ Strict Mode có hai phạm vi sử dụng đó là toàn cục và cục bộ. Tính toàn cục tức là khi bạn đặt từ "use strict" ở ngoài hàm và nằm phía trên cùng của file thì lúc này tất cả các đoạn code bên dưới đều bị ảnh hưởng. Tính cục bộ tức là bạn đặt "use strict" nằm trong một hàm nào đó thì phạm vi ảnh hưởng chỉ nằm trong hàm đó mà thôi.</p>
+    <p>- Ưu diểm : Loại bỏ một số lỗi trong JS bằng cách thay dổi chúng để ném lỗi  </p>
+    <p>+ Giúp code nhanh hơn , </p>
+    <h4>3.What are the differences between `==` and `===`? Write an example for each case (if any)?</h4>
+    <p>- "==": Chỉ so sánh giá trị. </p>
+    <p>- "===": So sánh cả giá trị và kiểu dữ liệu.</p>
+    <h4>4.What is different between declaration: `var`, `const` and `let`?</h4>
+    <p><b>const</b></p>
+    <p>const dùng để khai báo một hằng số - là một giá trị không thay đổi được trong suốt quá trình chạy.</p>
+    <p><b>let</b></p>
+    <p>let tạo ra một biến chỉ có thể truy cập được trong block bao quanh nó, khác với var - tạo ra một biến có phạm vi truy cập xuyên suốt function chứa nó.</p>
+    <p><b>var</b></p>
+    <p>var là câu lệnh khai báo 1 biến . Tùy ý khởi tạo một giá trị</p>
+  </div>
+</body>
+</html>
